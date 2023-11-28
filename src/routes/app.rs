@@ -1,7 +1,7 @@
 use leptos::*;
 use leptos_router::*;
-use crate::home::*;
-use crate::about::*;
+use crate::routes::home::Home;
+use crate::routes::about::About;
 
 #[component]
 pub fn App() -> impl IntoView{

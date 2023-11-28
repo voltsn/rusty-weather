@@ -1,9 +1,7 @@
-mod app;
-mod home;
-mod about;
+mod routes;
 
-use app::App;
 use leptos::*;
+use routes::App;
 
 fn main() {
     mount_to_body(App)
